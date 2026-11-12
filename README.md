@@ -30,3 +30,13 @@ alias chrome-debug='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chro
 **Following commands depend on the chrome-debug CLI command in a separate terminal to extract site data using Playwright**
 - Investing Pro analysis: `uv run scan_investing_pro.py` 
 - TradingView analysis: `uv run scan_tradingview.py`
+
+
+## ROADMAP
+
+ - [ ] Extend the stocks analysis to other sources
+ - [ ] Add new features such as:
+   - [ ] Add support for analysing ETFs 
+   - [ ] Add new types of stock analysis
+   - [ ] Create and Manage stock portfolios
+ - [ ] Leverage more AI tools, currently the repo has a basic CLAUDE.md and Playwright MCP setup that could be enhanced as we go. Also we could use available market Skills for the new features.
